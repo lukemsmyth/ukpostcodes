@@ -1,2 +1,1 @@
-def hello() -> str:
-    return "Hello from ukpostcodes!"
+from ukpostcodes.validator import validate  # noqa: F401
