@@ -36,3 +36,10 @@ The validation is performed by checking against the regular expressions in `ukpo
 The `validate()` function *will* return `True` when passed an otherwise valid string which:
 - does not have a whitespace separating the inward and outward codes
 - contains lower case letters
+
+# Tests
+
+To run the tests:
+```shell
+uv run pytest
+```
