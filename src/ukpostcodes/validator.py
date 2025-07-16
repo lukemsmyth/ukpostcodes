@@ -18,6 +18,7 @@ def validate(postcode: str) -> bool:
           Whether the string is a valid UK postcode.
 
     """
+    postcode = postcode.upper()
     return any(
         [
             re.match(_POSTCODE_REGEX_1, postcode),
